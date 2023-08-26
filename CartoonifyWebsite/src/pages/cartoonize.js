@@ -12,7 +12,7 @@ export default function Cartoonize() {
     const formData = new FormData(e.target);
 
     try {
-      const response = await fetch('http://208.167.255.60/upload', {
+      const response = await fetch('https://208.167.255.60/upload', {
         method: 'POST',
         body: formData,
       });
